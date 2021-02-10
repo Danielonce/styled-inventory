@@ -65,20 +65,6 @@ const Form = () => {
         })
     }
 
-    //This function add an event to go to the post endpoint
-    const addProduct = () => {
-        axios.post('https://styled-server.herokuapp.com/createproduct', {
-            product: product,
-            quantity: quantity,
-            storage: storage,
-            expiration: expiration
-        }).then( (response) => {
-            console.log(response)
-        }).catch ( (err) => {
-            console.log(err)
-        })
-    }
-
 
     return (
         <Container>
@@ -115,7 +101,16 @@ const Form = () => {
             />
 
             <Button
-                onClick={() => addProduct}
+                //This function add an event to go to the post endpoint with all the form's values
+                onClick={(e) => {
+                    e.preventDefault()
+                    axios.post('https://styled-server.herokuapp.com/createproduct', {
+                        product: product,
+                        quantity: quantity,
+                        storage: storage,
+                        expiration: expiration
+                    }).then( (response) => { window.location = '/' }).catch ( (err) => {console.log(err)})                
+                }}
             >Add!</Button>
         </Container>
     )
