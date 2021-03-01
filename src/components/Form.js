@@ -8,9 +8,8 @@ import axios from 'axios';
 const Container = styled.form`
     display: flex;
     flex-direction: column;
-    margin: 0 15% 0 15%;
     background-color: #35394A;
-    height: 29rem;
+   
 `;
 
 const Input = styled.input`

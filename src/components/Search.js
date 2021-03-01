@@ -21,7 +21,6 @@ const Button = styled.button`
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    margin: 0 15% 2rem 15%;
     background-color: #35394A;
 `;
 
