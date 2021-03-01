@@ -8,20 +8,21 @@ import axios from 'axios';
 const Container = styled.form`
     display: flex;
     flex-direction: column;
-    background-color: #35394A;
-   
+    justify-content: center;
+    align-items: center;
 `;
 
 const Input = styled.input`
+    background-color: #FFF;
     padding: 1rem;
     border-radius: 5px;
-    margin: .5rem 1.5rem .5rem 1.5rem;
-    border: 1px solid #35394A;
+    margin: .5rem 0 .5rem 0;
+    border: none;
     font-size: 1rem;
+    width: 50%;
 `;
 
 const Label = styled.label`
-    background-color: #35394A;
     color: #FFF;
     font-size: .8rem;
     padding: 1.1rem 0 0 0;
@@ -29,14 +30,16 @@ const Label = styled.label`
 
 const Button = styled.button`
     padding: 1rem;
-    margin: .5rem 30% .5rem 30%;
-    border: 1px solid #35394A;
+    margin: .5rem 0 .5rem 0;
+    border: none;
     border-radius: 5px;
     font-size: 1rem;
+    width: 33%;
     background: linear-gradient(-45deg,  #EA5C54  0%, #bb6dec 100%);
     &:hover{
         transition: 1s;
-        background: #3D7C5F;
+        background: #BD6CE6;
+        color: #FFF;
     }
 `;
 

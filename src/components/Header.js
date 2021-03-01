@@ -4,7 +4,7 @@ import pinkpolish from '../assets/pnp.png'
 
 const Head = styled.header`
     height: 5.6rem;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(-45deg,  #EA5C54  0%, #bb6dec 100%);
     display: flex;
     justify-content: center;

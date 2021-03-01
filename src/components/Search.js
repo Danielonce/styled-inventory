@@ -7,21 +7,21 @@ import Product from './Product';
 
 const Button = styled.button`
     padding: 1rem;
-    margin: 1rem 30% .5rem 30%;
-    border: 1px solid #35394A;
+    margin: 1rem 33.3% .5rem 33.3%;
+    border: none;
     border-radius: 5px;
     font-size: 1rem;
     background: linear-gradient(-45deg,  #EA5C54  0%, #bb6dec 100%);
     &:hover{
         transition: 1s;
-        background: #3D7C5F;
+        background: #BD6CE6;
+        color: #FFF;
     }
 `;
 
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    background-color: #35394A;
 `;
 
 const UpdateContainer = styled.div`
@@ -34,6 +34,7 @@ const UpdateContainer = styled.div`
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #FFF;
     @media (max-width: 600px){
         flex-direction: column;
     }
