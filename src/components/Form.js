@@ -30,11 +30,13 @@ const Label = styled.label`
 
 const Button = styled.button`
     padding: 1rem;
-    margin: .5rem 0 .5rem 0;
+    margin: 2rem 0 .5rem 0;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     width: 33%;
+    color: #35394A;
+    font-weight: 600;
     background: linear-gradient(-45deg,  #EA5C54  0%, #bb6dec 100%);
     &:hover{
         transition: 1s;

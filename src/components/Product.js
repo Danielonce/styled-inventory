@@ -4,9 +4,10 @@ import styled from '@emotion/styled';
 const Card = styled.div`
     padding: 1rem;
     border-radius: 5px;
-    margin: .5rem 1.5rem .5rem 1.5rem;
-    border: 1px solid #35394A;
+    margin: .5rem 25% .5rem 25%;
     font-size: 1rem;
+    font-weight: 600;
+    color: #35394A;
     display: flex;
     font-size: .8rem;
     flex-direction: column;

@@ -10,6 +10,8 @@ const Button = styled.button`
     margin: 1rem 33.3% .5rem 33.3%;
     border: none;
     border-radius: 5px;
+    color: #35394A;
+    font-weight: 600;
     font-size: 1rem;
     background: linear-gradient(-45deg,  #EA5C54  0%, #bb6dec 100%);
     &:hover{
@@ -27,8 +29,7 @@ const Container = styled.div`
 const UpdateContainer = styled.div`
     padding: 1rem;
     border-radius: 0 0 5px 5px;
-    margin: -1rem 1.5rem 1rem 1.5rem;
-    border: 1px solid #35394A;
+    margin: -1rem 25% 1rem 25%;
     font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +102,7 @@ const Search = () => {
     return (
         <Container>
 
-
+        
 
           <Button
             onClick={getProducts}
@@ -181,7 +182,6 @@ const Search = () => {
 
             </Fragment>
           )}  
-
 
 
 
